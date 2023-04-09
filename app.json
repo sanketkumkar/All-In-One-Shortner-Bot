@@ -18,7 +18,7 @@
             "description": "Get API key from your Website",
             "value": ""
         },
-        "https://adanylinks.in/member/tools/api": {
+        "https://adanylinks.in/api?api=f6abd7a47005ea5d74b2275ce82ec9e1a28ac2d9&url=yourdestinationlink.com&alias=CustomAliasi": {
             "description": "Paste ONLY ONE API URL From Your Link Shortener Website, Examples are given here: https://github.com/AkBotZ/Link-Shortener-Bot#api-url-of-some-sites-are",
             "value": ""
         },
