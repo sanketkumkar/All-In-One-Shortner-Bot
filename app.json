@@ -1,35 +1,28 @@
 {
-    "name": "Link Shortener Bot",
-    "description": "Make short link by different API Keys",
+    "name": "AdAnyLinks Converter Bot",
+    "description": "Adanylinks Bulk Link Converter Bot",
     "keywords": [
-        "telegram",
-        "short link",
-	"GPLink",
-	"Droplink",
-	"Dulink",
-	"Tnlink",
-	"pdisklinkshortener"
-    ],
-    "website": "https://github.com/Cyniteofficial/All-In-One-Shortener-Bot",
-    "repository": "https://github.com/Cyniteofficial/All-In-One-Shortener-Bot",
+        "telegram"  ],
+    "website": "https://github.com/sanketkumkar/All-In-One-Shortener-Bot",
+    "repository": "https://github.com/sanketkumkar/All-In-One-Shortener-Bot",
     "env": {
-        "API_HASH": {
+        "32b77438d290b88d51c051f029c36fb5": {
             "description": "Get this value from https://my.telegram.org",
             "value": ""
         },
-        "API_ID": {
+        "20166775": {
             "description": "Get this value from https://my.telegram.org",
             "value": ""
         },
-        "API_KEY": {
+        "f6abd7a47005ea5d74b2275ce82ec9e1a28ac2d9": {
             "description": "Get API key from your Website",
             "value": ""
         },
-        "API_URL": {
+        "https://adanylinks.in/member/tools/api": {
             "description": "Paste ONLY ONE API URL From Your Link Shortener Website, Examples are given here: https://github.com/AkBotZ/Link-Shortener-Bot#api-url-of-some-sites-are",
             "value": ""
         },
-        "BOT_TOKEN": {
+        "5868634376:AAGpCDLTK09d8mIy_vhW3BRamLAIHwZYJEQ": {
             "description": "Your bot token, Get it from @Botfather",
             "value": ""
         }
