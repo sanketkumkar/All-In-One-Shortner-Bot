@@ -7,11 +7,11 @@ from os import environ
 from pyrogram import Client, filters
 from pyrogram.types import *
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY')
-API_URL = environ.get('API_URL')
+API_ID = environ.get('20166775')
+API_HASH = environ.get('32b77438d290b88d51c051f029c36fb5')
+BOT_TOKEN = environ.get('5868634376:AAGpCDLTK09d8mIy_vhW3BRamLAIHwZYJEQ')
+API_KEY = environ.get('f6abd7a47005ea5d74b2275ce82ec9e1a28ac2d9')
+API_URL = environ.get('https://adanylinks.in/api?api=f6abd7a47005ea5d74b2275ce82ec9e1a28ac2d9&url=yourdestinationlink.com&alias=CustomAlias')
 
 akbotz = Client('link shortener bot',
              api_id=API_ID,
@@ -19,14 +19,14 @@ akbotz = Client('link shortener bot',
              bot_token=BOT_TOKEN,
              workers=100)
 
-print("Developer: @cyniteofficial , Join & Share Channel")
+print("Developer: @Tz_tycoon , Join & Share Channel")
 print("Bot is Started Now")
 
 @akbotz.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Link Shortener bot. Just send me link and get short link, You can also send multiple links seperated by a space or enter.\n\n**Developer:** @AKBotZ")
+        "I'm Link Shortener bot. Just send me link and get short link, You can also send multiple links seperated by a space or enter.\n\n**Developer:@Tz_Tycoon")
 
 
 @akbotz.on_message(filters.private & filters.text & filters.incoming)
